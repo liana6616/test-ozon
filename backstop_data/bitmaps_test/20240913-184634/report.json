@@ -1,0 +1,808 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/hero_desktop.png",
+        "test": "../bitmaps_test/20240913-184634/hero_desktop.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero_desktop.png",
+        "label": "hero",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.9,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.2864583333333333,
+          "misMatchPercentage": "0.29",
+          "analysisTime": 430
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/about_desktop.png",
+        "test": "../bitmaps_test/20240913-184634/about_desktop.png",
+        "selector": "[data-test=\"about\"]",
+        "fileName": "about_desktop.png",
+        "label": "about",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1.1,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.7008090065625707,
+          "misMatchPercentage": "0.70",
+          "analysisTime": 113
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/programs_desktop.png",
+        "test": "../bitmaps_test/20240913-184634/programs_desktop.png",
+        "selector": "[data-test=\"programs\"]",
+        "fileName": "programs_desktop.png",
+        "label": "programs",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.9,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.6020496992719215,
+          "misMatchPercentage": "0.60",
+          "analysisTime": 626
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/grant_desktop.png",
+        "test": "../bitmaps_test/20240913-184634/grant_desktop.png",
+        "selector": "[data-test=\"grant\"]",
+        "fileName": "grant_desktop.png",
+        "label": "grant",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.9,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.6941176470588235,
+          "misMatchPercentage": "0.69",
+          "analysisTime": 780
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/news_desktop.png",
+        "test": "../bitmaps_test/20240913-184634/news_desktop.png",
+        "selector": "[data-test=\"news\"]",
+        "fileName": "news_desktop.png",
+        "label": "news",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.9,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 22.72334346064815,
+          "misMatchPercentage": "22.72",
+          "analysisTime": 1571
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_news_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/FAQ_desktop.png",
+        "test": "../bitmaps_test/20240913-184634/FAQ_desktop.png",
+        "selector": "[data-test=\"FAQ\"]",
+        "fileName": "FAQ_desktop.png",
+        "label": "FAQ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1.1,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 14.012012716281008,
+          "misMatchPercentage": "14.01",
+          "analysisTime": 1946
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_FAQ_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/reviews_desktop.png",
+        "test": "../bitmaps_test/20240913-184634/reviews_desktop.png",
+        "selector": "[data-test=\"reviews\"]",
+        "fileName": "reviews_desktop.png",
+        "label": "reviews",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.9,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 5.9526143790849675,
+          "misMatchPercentage": "5.95",
+          "analysisTime": 1075
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_reviews_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/contacts_desktop.png",
+        "test": "../bitmaps_test/20240913-184634/contacts_desktop.png",
+        "selector": "[data-test=\"contacts\"]",
+        "fileName": "contacts_desktop.png",
+        "label": "contacts",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.9,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 48.090355282738095,
+          "misMatchPercentage": "48.09",
+          "analysisTime": 2326
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_contacts_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/form_desktop.png",
+        "test": "../bitmaps_test/20240913-184634/form_desktop.png",
+        "selector": "[data-test=\"form\"]",
+        "fileName": "form_desktop.png",
+        "label": "form",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.9,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 49.132850241545896,
+          "misMatchPercentage": "49.13",
+          "analysisTime": 2020
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_form_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/footer_desktop.png",
+        "test": "../bitmaps_test/20240913-184634/footer_desktop.png",
+        "selector": "[data-test=\"footer\"]",
+        "fileName": "footer_desktop.png",
+        "label": "footer",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 11.259469696969697,
+          "misMatchPercentage": "11.26",
+          "analysisTime": 629
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_footer_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/hero_tablet.png",
+        "test": "../bitmaps_test/20240913-184634/hero_tablet.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero_tablet.png",
+        "label": "hero",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.9,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.24846394856770834,
+          "misMatchPercentage": "0.25",
+          "analysisTime": 513
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/about_tablet.png",
+        "test": "../bitmaps_test/20240913-184634/about_tablet.png",
+        "selector": "[data-test=\"about\"]",
+        "fileName": "about_tablet.png",
+        "label": "about",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.9,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.555933978351127,
+          "misMatchPercentage": "0.56",
+          "analysisTime": 987
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/programs_tablet.png",
+        "test": "../bitmaps_test/20240913-184634/programs_tablet.png",
+        "selector": "[data-test=\"programs\"]",
+        "fileName": "programs_tablet.png",
+        "label": "programs",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.8,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.8336790191740414,
+          "misMatchPercentage": "0.83",
+          "analysisTime": 716
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_programs_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/grant_tablet.png",
+        "test": "../bitmaps_test/20240913-184634/grant_tablet.png",
+        "selector": "[data-test=\"grant\"]",
+        "fileName": "grant_tablet.png",
+        "label": "grant",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.7,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 3.3037952266782913,
+          "misMatchPercentage": "3.30",
+          "analysisTime": 824
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_grant_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/news_tablet.png",
+        "test": "../bitmaps_test/20240913-184634/news_tablet.png",
+        "selector": "[data-test=\"news\"]",
+        "fileName": "news_tablet.png",
+        "label": "news",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.9,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 39.882514312977094,
+          "misMatchPercentage": "39.88",
+          "analysisTime": 2356
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_news_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/FAQ_tablet.png",
+        "test": "../bitmaps_test/20240913-184634/FAQ_tablet.png",
+        "selector": "[data-test=\"FAQ\"]",
+        "fileName": "FAQ_tablet.png",
+        "label": "FAQ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1.4,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 29.77837766971777,
+          "misMatchPercentage": "29.78",
+          "analysisTime": 1903
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_FAQ_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/reviews_tablet.png",
+        "test": "../bitmaps_test/20240913-184634/reviews_tablet.png",
+        "selector": "[data-test=\"reviews\"]",
+        "fileName": "reviews_tablet.png",
+        "label": "reviews",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.8,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 14.352889885401096,
+          "misMatchPercentage": "14.35",
+          "analysisTime": 1384
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_reviews_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/contacts_tablet.png",
+        "test": "../bitmaps_test/20240913-184634/contacts_tablet.png",
+        "selector": "[data-test=\"contacts\"]",
+        "fileName": "contacts_tablet.png",
+        "label": "contacts",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1.2,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 65.47681189680772,
+          "misMatchPercentage": "65.48",
+          "analysisTime": 2482
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_contacts_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/form_tablet.png",
+        "test": "../bitmaps_test/20240913-184634/form_tablet.png",
+        "selector": "[data-test=\"form\"]",
+        "fileName": "form_tablet.png",
+        "label": "form",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.9,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 72.5341796875,
+          "misMatchPercentage": "72.53",
+          "analysisTime": 2107
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_form_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/footer_tablet.png",
+        "test": "../bitmaps_test/20240913-184634/footer_tablet.png",
+        "selector": "[data-test=\"footer\"]",
+        "fileName": "footer_tablet.png",
+        "label": "footer",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1.2,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 29.713675902061855,
+          "misMatchPercentage": "29.71",
+          "analysisTime": 1049
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_footer_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/hero_mobile.png",
+        "test": "../bitmaps_test/20240913-184634/hero_mobile.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero_mobile.png",
+        "label": "hero",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 2.3,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.1641725352112675,
+          "misMatchPercentage": "1.16",
+          "analysisTime": 471
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/about_mobile.png",
+        "test": "../bitmaps_test/20240913-184634/about_mobile.png",
+        "selector": "[data-test=\"about\"]",
+        "fileName": "about_mobile.png",
+        "label": "about",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1.8,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.482064348521183,
+          "misMatchPercentage": "1.48",
+          "analysisTime": 344
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/programs_mobile.png",
+        "test": "../bitmaps_test/20240913-184634/programs_mobile.png",
+        "selector": "[data-test=\"programs\"]",
+        "fileName": "programs_mobile.png",
+        "label": "programs",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.9,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.6388998422712933,
+          "misMatchPercentage": "1.64",
+          "analysisTime": 237
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_programs_mobile.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/grant_mobile.png",
+        "test": "../bitmaps_test/20240913-184634/grant_mobile.png",
+        "selector": "[data-test=\"grant\"]",
+        "fileName": "grant_mobile.png",
+        "label": "grant",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 2.3,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.953301221804511,
+          "misMatchPercentage": "4.95",
+          "analysisTime": 988
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_grant_mobile.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/news_mobile.png",
+        "test": "../bitmaps_test/20240913-184634/news_mobile.png",
+        "selector": "[data-test=\"news\"]",
+        "fileName": "news_mobile.png",
+        "label": "news",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.9,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 47.75251777251185,
+          "misMatchPercentage": "47.75",
+          "analysisTime": 1794
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_news_mobile.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/FAQ_mobile.png",
+        "test": "../bitmaps_test/20240913-184634/FAQ_mobile.png",
+        "selector": "[data-test=\"FAQ\"]",
+        "fileName": "FAQ_mobile.png",
+        "label": "FAQ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1.8,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 42.6095245215311,
+          "misMatchPercentage": "42.61",
+          "analysisTime": 1235
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_FAQ_mobile.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/reviews_mobile.png",
+        "test": "../bitmaps_test/20240913-184634/reviews_mobile.png",
+        "selector": "[data-test=\"reviews\"]",
+        "fileName": "reviews_mobile.png",
+        "label": "reviews",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 2.6,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 21.427017405063292,
+          "misMatchPercentage": "21.43",
+          "analysisTime": 629
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_reviews_mobile.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/contacts_mobile.png",
+        "test": "../bitmaps_test/20240913-184634/contacts_mobile.png",
+        "selector": "[data-test=\"contacts\"]",
+        "fileName": "contacts_mobile.png",
+        "label": "contacts",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1.3,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 73.03165007112375,
+          "misMatchPercentage": "73.03",
+          "analysisTime": 1820
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_contacts_mobile.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/form_mobile.png",
+        "test": "../bitmaps_test/20240913-184634/form_mobile.png",
+        "selector": "[data-test=\"form\"]",
+        "fileName": "form_mobile.png",
+        "label": "form",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.9,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 88.33508403361344,
+          "misMatchPercentage": "88.34",
+          "analysisTime": 2247
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_form_mobile.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/test-pp/footer_mobile.png",
+        "test": "../bitmaps_test/20240913-184634/footer_mobile.png",
+        "selector": "[data-test=\"footer\"]",
+        "fileName": "footer_mobile.png",
+        "label": "footer",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1.8,
+        "url": "http://localhost:3000/index.html",
+        "referenceUrl": "./figma/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 34.95820063694268,
+          "misMatchPercentage": "34.96",
+          "analysisTime": 640
+        },
+        "diffImage": "../bitmaps_test/20240913-184634/failed_diff_footer_mobile.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "internship test-pp"
+}

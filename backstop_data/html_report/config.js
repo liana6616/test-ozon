@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/hero_desktop.png",
-        "test": "../bitmaps_test/20241126-152628/hero_desktop.png",
+        "test": "../bitmaps_test/20241007-142925/hero_desktop.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero_desktop.png",
         "label": "hero",
@@ -14,14 +14,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/hero_desktop.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.2670138888888889,
+          "misMatchPercentage": "0.27",
+          "analysisTime": 464
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/about_desktop.png",
-        "test": "../bitmaps_test/20241126-152628/about_desktop.png",
+        "test": "../bitmaps_test/20241007-142925/about_desktop.png",
         "selector": "[data-test=\"about\"]",
         "fileName": "about_desktop.png",
         "label": "about",
@@ -31,14 +40,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/about_desktop.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.6998896809232857,
+          "misMatchPercentage": "0.70",
+          "analysisTime": 498
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/programs_desktop.png",
-        "test": "../bitmaps_test/20241126-152628/programs_desktop.png",
+        "test": "../bitmaps_test/20241007-142925/programs_desktop.png",
         "selector": "[data-test=\"programs\"]",
         "fileName": "programs_desktop.png",
         "label": "programs",
@@ -48,14 +66,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/programs_desktop.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.4742402659069326,
+          "misMatchPercentage": "0.47",
+          "analysisTime": 249
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/grant_desktop.png",
-        "test": "../bitmaps_test/20241126-152628/grant_desktop.png",
+        "test": "../bitmaps_test/20241007-142925/grant_desktop.png",
         "selector": "[data-test=\"grant\"]",
         "fileName": "grant_desktop.png",
         "label": "grant",
@@ -65,14 +92,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/grant_desktop.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.6899509803921569,
+          "misMatchPercentage": "0.69",
+          "analysisTime": 463
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/news_desktop.png",
-        "test": "../bitmaps_test/20241126-152628/news_desktop.png",
+        "test": "../bitmaps_test/20241007-142925/news_desktop.png",
         "selector": "[data-test=\"news\"]",
         "fileName": "news_desktop.png",
         "label": "news",
@@ -82,14 +118,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/news_desktop.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.4063585069444445,
+          "misMatchPercentage": "0.41",
+          "analysisTime": 262
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/FAQ_desktop.png",
-        "test": "../bitmaps_test/20241126-152628/FAQ_desktop.png",
+        "test": "../bitmaps_test/20241007-142925/FAQ_desktop.png",
         "selector": "[data-test=\"FAQ\"]",
         "fileName": "FAQ_desktop.png",
         "label": "FAQ",
@@ -99,14 +144,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/FAQ_desktop.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.31386804252657907,
+          "misMatchPercentage": "0.31",
+          "analysisTime": 328
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/reviews_desktop.png",
-        "test": "../bitmaps_test/20241126-152628/reviews_desktop.png",
+        "test": "../bitmaps_test/20241007-142925/reviews_desktop.png",
         "selector": "[data-test=\"reviews\"]",
         "fileName": "reviews_desktop.png",
         "label": "reviews",
@@ -116,14 +170,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/reviews_desktop.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.23366013071895428,
+          "misMatchPercentage": "0.23",
+          "analysisTime": 620
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/contacts_desktop.png",
-        "test": "../bitmaps_test/20241126-152628/contacts_desktop.png",
+        "test": "../bitmaps_test/20241007-142925/contacts_desktop.png",
         "selector": "[data-test=\"contacts\"]",
         "fileName": "contacts_desktop.png",
         "label": "contacts",
@@ -133,14 +196,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/contacts_desktop.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.2508060515873016,
+          "misMatchPercentage": "0.25",
+          "analysisTime": 165
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/form_desktop.png",
-        "test": "../bitmaps_test/20241126-152628/form_desktop.png",
+        "test": "../bitmaps_test/20241007-142925/form_desktop.png",
         "selector": "[data-test=\"form\"]",
         "fileName": "form_desktop.png",
         "label": "form",
@@ -150,14 +222,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/form_desktop.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.1463617149758454,
+          "misMatchPercentage": "0.15",
+          "analysisTime": 121
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/footer_desktop.png",
-        "test": "../bitmaps_test/20241126-152628/footer_desktop.png",
+        "test": "../bitmaps_test/20241007-142925/footer_desktop.png",
         "selector": "[data-test=\"footer\"]",
         "fileName": "footer_desktop.png",
         "label": "footer",
@@ -167,14 +248,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "desktop",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/footer_desktop.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.7810746352413019,
+          "misMatchPercentage": "0.78",
+          "analysisTime": 268
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/hero_tablet.png",
-        "test": "../bitmaps_test/20241126-152628/hero_tablet.png",
+        "test": "../bitmaps_test/20241007-142925/hero_tablet.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero_tablet.png",
         "label": "hero",
@@ -184,14 +274,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "tablet",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/hero_tablet.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.28394063313802087,
+          "misMatchPercentage": "0.28",
+          "analysisTime": 347
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/about_tablet.png",
-        "test": "../bitmaps_test/20241126-152628/about_tablet.png",
+        "test": "../bitmaps_test/20241007-142925/about_tablet.png",
         "selector": "[data-test=\"about\"]",
         "fileName": "about_tablet.png",
         "label": "about",
@@ -201,14 +300,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "tablet",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/about_tablet.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.5531537292408066,
+          "misMatchPercentage": "0.55",
+          "analysisTime": 484
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/programs_tablet.png",
-        "test": "../bitmaps_test/20241126-152628/programs_tablet.png",
+        "test": "../bitmaps_test/20241007-142925/programs_tablet.png",
         "selector": "[data-test=\"programs\"]",
         "fileName": "programs_tablet.png",
         "label": "programs",
@@ -218,14 +326,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "tablet",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/programs_tablet.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.5542496312684365,
+          "misMatchPercentage": "0.55",
+          "analysisTime": 109
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/grant_tablet.png",
-        "test": "../bitmaps_test/20241126-152628/grant_tablet.png",
+        "test": "../bitmaps_test/20241007-142925/grant_tablet.png",
         "selector": "[data-test=\"grant\"]",
         "fileName": "grant_tablet.png",
         "label": "grant",
@@ -235,14 +352,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "tablet",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/grant_tablet.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.33885952484742804,
+          "misMatchPercentage": "0.34",
+          "analysisTime": 518
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/news_tablet.png",
-        "test": "../bitmaps_test/20241126-152628/news_tablet.png",
+        "test": "../bitmaps_test/20241007-142925/news_tablet.png",
         "selector": "[data-test=\"news\"]",
         "fileName": "news_tablet.png",
         "label": "news",
@@ -252,14 +378,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "tablet",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/news_tablet.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.29172630407124683,
+          "misMatchPercentage": "0.29",
+          "analysisTime": 120
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/FAQ_tablet.png",
-        "test": "../bitmaps_test/20241126-152628/FAQ_tablet.png",
+        "test": "../bitmaps_test/20241007-142925/FAQ_tablet.png",
         "selector": "[data-test=\"FAQ\"]",
         "fileName": "FAQ_tablet.png",
         "label": "FAQ",
@@ -269,14 +404,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "tablet",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/FAQ_tablet.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.7507091437833715,
+          "misMatchPercentage": "0.75",
+          "analysisTime": 110
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/reviews_tablet.png",
-        "test": "../bitmaps_test/20241126-152628/reviews_tablet.png",
+        "test": "../bitmaps_test/20241007-142925/reviews_tablet.png",
         "selector": "[data-test=\"reviews\"]",
         "fileName": "reviews_tablet.png",
         "label": "reviews",
@@ -286,14 +430,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "tablet",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/reviews_tablet.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.45232311908320877,
+          "misMatchPercentage": "0.45",
+          "analysisTime": 78
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/contacts_tablet.png",
-        "test": "../bitmaps_test/20241126-152628/contacts_tablet.png",
+        "test": "../bitmaps_test/20241007-142925/contacts_tablet.png",
         "selector": "[data-test=\"contacts\"]",
         "fileName": "contacts_tablet.png",
         "label": "contacts",
@@ -303,14 +456,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "tablet",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/contacts_tablet.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.3426306143281366,
+          "misMatchPercentage": "0.34",
+          "analysisTime": 142
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/form_tablet.png",
-        "test": "../bitmaps_test/20241126-152628/form_tablet.png",
+        "test": "../bitmaps_test/20241007-142925/form_tablet.png",
         "selector": "[data-test=\"form\"]",
         "fileName": "form_tablet.png",
         "label": "form",
@@ -320,14 +482,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "tablet",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/form_tablet.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.8934067234848485,
+          "misMatchPercentage": "0.89",
+          "analysisTime": 103
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/footer_tablet.png",
-        "test": "../bitmaps_test/20241126-152628/footer_tablet.png",
+        "test": "../bitmaps_test/20241007-142925/footer_tablet.png",
         "selector": "[data-test=\"footer\"]",
         "fileName": "footer_tablet.png",
         "label": "footer",
@@ -337,14 +508,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "tablet",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/footer_tablet.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.16516323024055,
+          "misMatchPercentage": "1.17",
+          "analysisTime": 79
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/hero_mobile.png",
-        "test": "../bitmaps_test/20241126-152628/hero_mobile.png",
+        "test": "../bitmaps_test/20241007-142925/hero_mobile.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "hero_mobile.png",
         "label": "hero",
@@ -354,14 +534,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "mobile",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/hero_mobile.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.1405149647887323,
+          "misMatchPercentage": "1.14",
+          "analysisTime": 370
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/about_mobile.png",
-        "test": "../bitmaps_test/20241126-152628/about_mobile.png",
+        "test": "../bitmaps_test/20241007-142925/about_mobile.png",
         "selector": "[data-test=\"about\"]",
         "fileName": "about_mobile.png",
         "label": "about",
@@ -371,14 +560,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "mobile",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/about_mobile.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.4815647482014387,
+          "misMatchPercentage": "1.48",
+          "analysisTime": 613
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/programs_mobile.png",
-        "test": "../bitmaps_test/20241126-152628/programs_mobile.png",
+        "test": "../bitmaps_test/20241007-142925/programs_mobile.png",
         "selector": "[data-test=\"programs\"]",
         "fileName": "programs_mobile.png",
         "label": "programs",
@@ -388,14 +586,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "mobile",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/programs_mobile.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.8995465299684542,
+          "misMatchPercentage": "0.90",
+          "analysisTime": 367
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/grant_mobile.png",
-        "test": "../bitmaps_test/20241126-152628/grant_mobile.png",
+        "test": "../bitmaps_test/20241007-142925/grant_mobile.png",
         "selector": "[data-test=\"grant\"]",
         "fileName": "grant_mobile.png",
         "label": "grant",
@@ -405,14 +612,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "mobile",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/grant_mobile.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.119360902255639,
+          "misMatchPercentage": "2.12",
+          "analysisTime": 594
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/news_mobile.png",
-        "test": "../bitmaps_test/20241126-152628/news_mobile.png",
+        "test": "../bitmaps_test/20241007-142925/news_mobile.png",
         "selector": "[data-test=\"news\"]",
         "fileName": "news_mobile.png",
         "label": "news",
@@ -422,14 +638,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "mobile",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/news_mobile.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.6242594786729858,
+          "misMatchPercentage": "0.62",
+          "analysisTime": 354
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/FAQ_mobile.png",
-        "test": "../bitmaps_test/20241126-152628/FAQ_mobile.png",
+        "test": "../bitmaps_test/20241007-142925/FAQ_mobile.png",
         "selector": "[data-test=\"FAQ\"]",
         "fileName": "FAQ_mobile.png",
         "label": "FAQ",
@@ -439,14 +664,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "mobile",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/FAQ_mobile.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.3752242822966507,
+          "misMatchPercentage": "1.38",
+          "analysisTime": 62
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/reviews_mobile.png",
-        "test": "../bitmaps_test/20241126-152628/reviews_mobile.png",
+        "test": "../bitmaps_test/20241007-142925/reviews_mobile.png",
         "selector": "[data-test=\"reviews\"]",
         "fileName": "reviews_mobile.png",
         "label": "reviews",
@@ -456,14 +690,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "mobile",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/reviews_mobile.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.451443829113924,
+          "misMatchPercentage": "0.45",
+          "analysisTime": 203
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/contacts_mobile.png",
-        "test": "../bitmaps_test/20241126-152628/contacts_mobile.png",
+        "test": "../bitmaps_test/20241007-142925/contacts_mobile.png",
         "selector": "[data-test=\"contacts\"]",
         "fileName": "contacts_mobile.png",
         "label": "contacts",
@@ -473,14 +716,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "mobile",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/contacts_mobile.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.7828058321479375,
+          "misMatchPercentage": "0.78",
+          "analysisTime": 260
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/form_mobile.png",
-        "test": "../bitmaps_test/20241126-152628/form_mobile.png",
+        "test": "../bitmaps_test/20241007-142925/form_mobile.png",
         "selector": "[data-test=\"form\"]",
         "fileName": "form_mobile.png",
         "label": "form",
@@ -490,14 +742,23 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "mobile",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/form_mobile.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.5117046818727491,
+          "misMatchPercentage": "0.51",
+          "analysisTime": 582
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../../bitmaps_reference/test-pp/footer_mobile.png",
-        "test": "../bitmaps_test/20241126-152628/footer_mobile.png",
+        "test": "../bitmaps_test/20241007-142925/footer_mobile.png",
         "selector": "[data-test=\"footer\"]",
         "fileName": "footer_mobile.png",
         "label": "footer",
@@ -507,9 +768,18 @@ report({
         "referenceUrl": "./figma/index.html",
         "expect": 0,
         "viewportLabel": "mobile",
-        "error": "Reference file not found /Users/eugene/test-ozon/bitmaps_reference/test-pp/footer_mobile.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.5396098726114649,
+          "misMatchPercentage": "1.54",
+          "analysisTime": 302
+        }
       },
-      "status": "fail"
+      "status": "pass"
     }
   ],
   "id": "internship test-pp"
