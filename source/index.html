@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ru" data-validate="html">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test-ozon</title>
+  <link rel="preload" href="./fonts/TildaSans-Bold.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="./fonts/TildaSans-Medium.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="./fonts/TildaSans-Regular.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+  <link rel="stylesheet" href="sass/style.scss">
+</head>
+
+<body>
+  <header class="header">
+    <span class="header__logo">LOGO</span>
+    <ul class="header__item">
+      <li class="header__list">
+        <a class="header__nav-link" href="#">
+          Каталог
+        </a>
+      </li>
+      <li class="header__list">        
+        <a class="header__nav-link" href="#">
+           Доставки
+        </a>
+      </li>
+      <li class="header__list">
+        <a class="header__nav-link" href="#">
+          Расчет
+       </a>
+      </li>
+      <li class="header__list">
+        <a class="header__nav-link" href="#">
+          О компании
+       </a>
+      </li>
+      <li class="header__list">
+        <a class="header__nav-link" href="#">
+          Контакты
+       </a>
+      </li>
+    </ul>
+    <button class="header__button" type="button">Перезвоните мне</button>
+  </header>
+  <main class="main">
+    <section class="advertising">
+      <div class="advertising__wrapper">
+        <h1>Популярные товары октябрь 2024 г.</h1>
+        <p>Поможем выкупить ваш товар из китайских интернет-магазинов товар, даем лучшую цену на доставку</p>
+      </div>
+    </section>
+    <section class="popular">
+      <h2 class="visually-hidden">Карточки с популярными товарами.</h2>
+      <ul class="popular__item">
+        <li class="popular__list">
+          <picture class="popular__image">
+            <source srcset="img/card.webp 1x, img/card@2x.webp 2x"
+              media="(min-width: 1882)" type="image/webp" width="320" height="320">
+            <img src="img/card.jpg"
+              srcset="img/card@2x.jpg 2x" width="320" height="320" alt="Фото товара">
+          </picture>
+          <div>
+            <h3 class="popular__title">Набор кастрюль, с крышкой, сковородка, Karaca, 12 предметов, биогранит, розовое золото</h3>
+            <span class="popular__text">Прибыль от 1 000 ₽</span>
+            <table class="popular__table">
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <th class="popular__price" scope="col">от 3 000 ₽</th>
+                  <th class="popular__price" scope="col">от 2 000 ₽</th>
+                  <th class="popular__price" class="" scope="col">от 800 ₽</th>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <td class="popular__marketplace">Цена на маркетплейсах</td>
+                  <td class="popular__marketplace">Цена с доставкой</td>
+                  <td class="popular__marketplace">Цена на фабрике в Китае</td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <td class="popular__logo popular__logo--ozon"></td>
+                  <td class="popular__logo popular__logo--delivery"></td>
+                  <td class="popular__logo popular__logo--china"></td>
+                </tr>
+              </tbody>
+            </table>
+            <button class="popular__button" type="button">Рассчитать под ключ</button>
+          </div>
+        </li>
+        <li class="popular__list">
+          <picture class="popular__image">
+            <source srcset="img/card.webp 1x, img/card@2x.webp 2x"
+              media="(min-width: 1882)" type="image/webp" width="320" height="320">
+            <img src="img/card.jpg"
+              srcset="img/card@2x.jpg 2x" width="320" height="320" alt="Фото товара">
+          </picture>
+          <div>
+            <h3 class="popular__title">Набор кастрюль, с крышкой, сковородка, Karaca, 12 предметов, биогранит, розовое золото</h3>
+            <span class="popular__text">Прибыль от 1 000 ₽</span>
+            <table class="popular__table">
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <th class="popular__price" scope="col">от 3 000 ₽</th>
+                  <th class="popular__price" scope="col">от 2 000 ₽</th>
+                  <th class="popular__price" class="" scope="col">от 800 ₽</th>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <td class="popular__marketplace">Цена на маркетплейсах</td>
+                  <td class="popular__marketplace">Цена с доставкой</td>
+                  <td class="popular__marketplace">Цена на фабрике в Китае</td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <td class="popular__logo popular__logo--ozon"></td>
+                  <td class="popular__logo popular__logo--delivery"></td>
+                  <td class="popular__logo popular__logo--china"></td>
+                </tr>
+              </tbody>
+            </table>
+            <button class="popular__button" type="button">Рассчитать под ключ</button>
+          </div>
+        </li>
+        <li class="popular__list">
+          <picture class="popular__image">
+            <source srcset="img/card.webp 1x, img/card@2x.webp 2x"
+              media="(min-width: 1882)" type="image/webp" width="320" height="320">
+            <img src="img/card.jpg"
+              srcset="img/card@2x.jpg 2x" width="320" height="320" alt="Фото товара">
+          </picture>
+          <div>
+            <h3 class="popular__title">Набор кастрюль, с крышкой, сковородка, Karaca, 12 предметов, биогранит, розовое золото</h3>
+            <span class="popular__text">Прибыль от 1 000 ₽</span>
+            <table class="popular__table">
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <th class="popular__price" scope="col">от 3 000 ₽</th>
+                  <th class="popular__price" scope="col">от 2 000 ₽</th>
+                  <th class="popular__price" class="" scope="col">от 800 ₽</th>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <td class="popular__marketplace">Цена на маркетплейсах</td>
+                  <td class="popular__marketplace">Цена с доставкой</td>
+                  <td class="popular__marketplace">Цена на фабрике в Китае</td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <td class="popular__logo popular__logo--ozon"></td>
+                  <td class="popular__logo popular__logo--delivery"></td>
+                  <td class="popular__logo popular__logo--china"></td>
+                </tr>
+              </tbody>
+            </table>
+            <button class="popular__button" type="button">Рассчитать под ключ</button>
+          </div>
+        </li>
+      </ul>
+      <div class="popular__banner">
+        <p>Если у кого определённые товары не рентабельны и требуют дешевой стоимости доставки , напишите нам фото вес и объём груза , желаемую цену по которой вам будет рентабельно его доставить и мы найдем вам лучший вариант</p>
+      </div>
+      <ul class="popular__item">
+        <li class="popular__list">
+          <picture class="popular__image">
+            <source srcset="img/card.webp 1x, img/card@2x.webp 2x"
+              media="(min-width: 1882)" type="image/webp" width="320" height="320">
+            <img src="img/card.jpg"
+              srcset="img/card@2x.jpg 2x" width="320" height="320" alt="Фото товара">
+          </picture>
+          <div>
+            <h3 class="popular__title">Набор кастрюль, с крышкой, сковородка, Karaca, 12 предметов, биогранит, розовое золото</h3>
+            <span class="popular__text">Прибыль от 1 000 ₽</span>
+            <table class="popular__table">
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <th class="popular__price" scope="col">от 3 000 ₽</th>
+                  <th class="popular__price" scope="col">от 2 000 ₽</th>
+                  <th class="popular__price" class="" scope="col">от 800 ₽</th>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <td class="popular__marketplace">Цена на маркетплейсах</td>
+                  <td class="popular__marketplace">Цена с доставкой</td>
+                  <td class="popular__marketplace">Цена на фабрике в Китае</td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <td class="popular__logo popular__logo--ozon"></td>
+                  <td class="popular__logo popular__logo--delivery"></td>
+                  <td class="popular__logo popular__logo--china"></td>
+                </tr>
+              </tbody>
+            </table>
+            <button class="popular__button" type="button">Рассчитать под ключ</button>
+          </div>
+        </li>
+        <li class="popular__list">
+          <picture class="popular__image">
+            <source srcset="img/card.webp 1x, img/card@2x.webp 2x"
+              media="(min-width: 1882)" type="image/webp" width="320" height="320">
+            <img src="img/card.jpg"
+              srcset="img/card@2x.jpg 2x" width="320" height="320" alt="Фото товара">
+          </picture>
+          <div>
+            <h3 class="popular__title">Набор кастрюль, с крышкой, сковородка, Karaca, 12 предметов, биогранит, розовое золото</h3>
+            <span class="popular__text">Прибыль от 1 000 ₽</span>
+            <table class="popular__table">
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <th class="popular__price" scope="col">от 3 000 ₽</th>
+                  <th class="popular__price" scope="col">от 2 000 ₽</th>
+                  <th class="popular__price" scope="col">от 800 ₽</th>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <td class="popular__marketplace">Цена на маркетплейсах</td>
+                  <td class="popular__marketplace">Цена с доставкой</td>
+                  <td class="popular__marketplace">Цена на фабрике в Китае</td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <td class="popular__logo popular__logo--ozon"></td>
+                  <td class="popular__logo popular__logo--delivery"></td>
+                  <td class="popular__logo popular__logo--china"></td>
+                </tr>
+              </tbody>
+            </table>
+            <button class="popular__button" type="button">Рассчитать под ключ</button>
+          </div>
+        </li>
+        <li class="popular__list">
+          <picture class="popular__image">
+            <source srcset="img/card.webp 1x, img/card@2x.webp 2x"
+              media="(min-width: 1882)" type="image/webp" width="320" height="320">
+            <img src="img/card.jpg"
+              srcset="img/card@2x.jpg 2x" width="320" height="320" alt="Фото товара">
+          </picture>
+          <div>
+            <h3 class="popular__title">Набор кастрюль, с крышкой, сковородка, Karaca, 12 предметов, биогранит, розовое золото</h3>
+            <span class="popular__text">Прибыль от 1 000 ₽</span>
+            <table class="popular__table">
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <th class="popular__price" scope="col">от 3 000 ₽</th>
+                  <th class="popular__price" scope="col">от 2 000 ₽</th>
+                  <th class="popular__price" class="" scope="col">от 800 ₽</th>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <td class="popular__marketplace">Цена на маркетплейсах</td>
+                  <td class="popular__marketplace">Цена с доставкой</td>
+                  <td class="popular__marketplace">Цена на фабрике в Китае</td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="popular__table-wrapper">
+                  <td class="popular__logo popular__logo--ozon"></td>
+                  <td class="popular__logo popular__logo--delivery"></td>
+                  <td class="popular__logo popular__logo--china"></td>
+                </tr>
+              </tbody>
+            </table>
+            <button class="popular__button" type="button">Рассчитать под ключ</button>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="advantages">
+      <h2 class="visually-hidden">Преимущества</h2>
+      <ul class="advantages__item">
+        <li class="advantages__list">
+          <span>Преимущество</span>
+          <p>Tiger Logistics занимается контейнерными перевозками сборных грузов, обеспечивая эффективную логистику из КНР в Россию. </p>
+        </li>
+        <li class="advantages__list">
+          <span>Преимущество</span>
+          <p>Tiger Logistics занимается контейнерными перевозками сборных грузов, обеспечивая эффективную логистику из КНР в Россию. </p>
+        </li>
+        <li class="advantages__list">
+          <span>Преимущество</span>
+          <p>Tiger Logistics занимается контейнерными перевозками сборных грузов, обеспечивая эффективную логистику из КНР в Россию. </p>
+        </li>
+      </ul>
+      <div class="advantages__wrapper">
+        <span>Преимущество в несколько строк</span>
+        <p>Tiger Logistics занимается контейнерными перевозками сборных грузов, обеспечивая эффективную логистику из КНР в Россию. </p>
+        <button class="advantages__button" type="submit">Рассчитать под ключ</button>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <span class="footer__logo">LOGO</span>
+    <ul class="footer__item">
+      <li class="footer__list">
+        <a class="footer__nav-link" href="#">
+          Каталог
+        </a>
+      </li>
+      <li class="footer__list">        
+        <a class="footer__nav-link" href="#">
+           Доставки
+        </a>
+      </li>
+      <li class="footer__list">
+        <a class="footer__nav-link" href="#">
+          Расчет
+       </a>
+      </li>
+      <li class="footer__list">
+        <a class="footer__nav-link" href="#">
+          О компании
+       </a>
+      </li>
+      <li class="footer__list">
+        <a class="footer__nav-link" href="#">
+          Контакты
+       </a>
+      </li>
+    </ul>
+    <button class="footer__button" type="button">Перезвоните мне</button>
+  </footer>
+</body>
+
+</html>

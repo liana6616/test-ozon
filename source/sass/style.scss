@@ -1,0 +1,13 @@
+@import "vendor/normalize";
+@import "common/variables";
+@import "common/global";
+@import "common/fonts";
+@import "common/visually-hidden";
+
+/* BLOCKS */
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/advertising";
+@import "blocks/popular";
+@import "blocks/advantages";
+@import "blocks/footer";

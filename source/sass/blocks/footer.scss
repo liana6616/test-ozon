@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1882px;
+  margin: 0 auto;
+  padding: 30px 258px 59px 261px;
+}
+
+.footer__logo {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 40.8px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.footer__item {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0 0 0 266px;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__button {
+  display: flex;
+  align-items: center;
+  padding: 18px 45px;
+  background: $bg-alt;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.footer__nav-link {
+  text-decoration: none;
+  color: $base-dark-alt;
+}
