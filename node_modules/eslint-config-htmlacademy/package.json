@@ -1,0 +1,62 @@
+{
+  "name": "eslint-config-htmlacademy",
+  "version": "10.0.1",
+  "description": "ESLint shareable config for the HTML Academy style",
+  "files": [
+    "es5.js",
+    "es5.5.js",
+    "es6.js",
+    "node.js",
+    "vanilla.js",
+    "react.js",
+    "react-typescript.js",
+    "index.js"
+  ],
+  "keywords": [
+    "HTMLAcademy",
+    "HTML Academy",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "jscs",
+    "jshint",
+    "jslint",
+    "eslint",
+    "validate",
+    "code style",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint"
+  ],
+  "scripts": {
+    "test": "eslint test/",
+    "deploy": "npm run test && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htmlacademy/eslint-config-htmlacademy.git"
+  },
+  "author": "sashasushko <sashasushko@htmlacademy.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/htmlacademy/eslint-config-htmlacademy/issues"
+  },
+  "homepage": "https://github.com/htmlacademy/eslint-config-htmlacademy#readme",
+  "peerDependencies": {
+    "eslint": ">=7"
+  },
+  "devDependencies": {
+    "eslint": "8.48.0"
+  },
+  "dependencies": {
+    "eslint-plugin-check-file": "2.6.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-unicorn": "46.0.0"
+  }
+}
