@@ -4,8 +4,20 @@
 
 .popular__list {
   position: relative;
-  display: flex;
-  gap: 39px;
+  min-height: 320px;
+  margin-left: 359px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -359px;
+    width: 320px;
+    height: 320px;
+    background-image: image-set("/img/card@1x.jpg" 1x, "/img/card@2x.jpg" 2x, "/img/card@1x.webp" 1x, "/img/card@2x.webp" 2x);
+    background-repeat: no-repeat;
+    background-size: 320px 320px;
+  }
 
   &:nth-child(3) {
     top: 7px;
@@ -28,6 +40,7 @@
   display: block;
   width: 320px;
   height: 320px;
+  background: $bg-light;
 }
 
 .popular__button {
