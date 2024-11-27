@@ -1,23 +1,23 @@
 @font-face {
-  font-family: "Tilda-sans";
+  font-family: "TildaSans";
   font-weight: 400;
   font-style: normal;
-  src: url("../../fonts/TildaSans-Regular.woff2") format("woff2"), url("../../fonts/TildaSans-Regular.woff") format("woff");
+  src: url("/fonts/TildaSans-Regular.woff2") format("woff2"), url("/fonts/TildaSans-Regular.woff") format("woff");
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Tilda-sans";
+  font-family: "TildaSans";
   font-weight: 500;
   font-style: normal;
-  src: url("../../fonts/TildaSans-Medium.woff2") format("woff2"), url("../../fonts/TildaSans-Medium.woff") format("woff");
+  src: url("/fonts/TildaSans-Medium.woff2") format("woff2"), url("/fonts/TildaSans-Medium.woff") format("woff");
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Tilda-sans";
+  font-family: "TildaSans";
   font-weight: 700;
   font-style: normal;
-  src: url("../../fonts/TildaSans-Bold.woff2") format("woff2"), url("../../fonts/TildaSans-Bold.woff") format("woff");
+  src: url("/fonts/TildaSans-Bold.woff2") format("woff2"), url("/fonts/TildaSans-Bold.woff") format("woff");
   font-display: swap;
 }
